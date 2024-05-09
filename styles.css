@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+
+  justify-content: center;
+  margin: 0 10%;
+  background-color: rgb(14,14,14);
+}
+
+.left-container {
+  background: url(/media/odin-lake.jpg);
+  width: 30%;
+  background-position: center;
+  background-size: 1000px 1000px;
+  background-repeat: no-repeat;
+}
+
+.odin-brand {
+  background-color: rgba(12, 12, 12, 0.329);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  height: 110px;
+}
+
+.odin-logo {
+  width: 80px;
+  height: 100px;
+}
+
+.odin-text {
+  color: white;
+  font-family: norse;
+  font-weight: bolder;
+  font-size: 4.5rem;
+}
+
+.photo-colab {
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+  margin-left: 80px;
+}
+
+.photo-owner, a {
+  color: white;
+  font-size: 9px;
+}
+
+/* Right side styles*/
+
+.right-container {
+  background-color: rgb(249,250,251);
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%vh;
+}
+
+.header {
+  flex: 1;
+}
+
+.header p {
+  margin: 6rem 4.5rem 2rem 1rem;
+}
+
+form {
+  flex: 2;
+}
+
+h3 {
+  background-color: white;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.input-column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.input-group  {
+  margin-bottom: 1rem; /* Espacio entre los grupos de input */
+}
+
+.input-group,
+h3 {
+  padding: 0.5rem
+}
+
+.input-group label {
+  display: block; /* Put the labels uppon the inputs*/
+}
+
+label {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 2px;
+}
+
+input {
+  width: 80%;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #E5E7EB;
+}
+
+input:focus {
+  border-color: blue;
+  box-shadow:  0 0 5px rgba(81, 203, 238, 1);
+}
+
+.password-Check:invalid {
+  border-color: red;
+}
+
+.submit-section {
+  margin: 10px 0 0 10px;
+  padding: 1rem;
+}
+
+button {
+  background-color: rgb(94,162,233);
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
